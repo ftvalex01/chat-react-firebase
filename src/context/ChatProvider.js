@@ -11,6 +11,7 @@ const ChatProvider = (props) => {
 
     React.useEffect(()=>{
         detectarUsuario()
+        //eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     const detectarUsuario = () =>{
